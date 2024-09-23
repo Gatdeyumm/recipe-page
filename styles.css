@@ -1,0 +1,109 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    max-width: 40%;
+    padding: 30px;
+    margin: 5%;
+}
+
+img {
+    border-radius: 15px;
+    max-width: 100%;
+}
+h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+p {
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    line-height: 150%;
+    color: hsl(30, 10%, 34%);
+
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+h2 {
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+ul li{
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    padding: 8px;
+}
+
+h3, h4, h5 {
+    font-family: 'Young Serif', serif;
+    font-size: 22px;
+    color: hsl(332, 51%, 32%);
+    font-weight: 500;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #e6d9d9; 
+    margin: 20px 0;
+}
+
+ol li::marker  {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+
+ol li {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    padding: 8px;
+}
+
+.nutri-row {
+    margin-bottom: 10px; 
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #e6d9d9; 
+    margin: 10px 0; 
+}
+
+
+th {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    text-align: left; 
+    padding-left: 25px;
+}
+
+td {
+    display: inline-block; 
+    color: hsl(332, 51%, 32%);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+    text-align: left; 
+    padding-left: 50px;
+}
